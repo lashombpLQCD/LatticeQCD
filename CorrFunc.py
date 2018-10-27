@@ -1,9 +1,18 @@
-# -*- coding: utf-8 -*-
 """
-Spyder Editor
+Python Calculation of Correlation Functions
 
-This is a temporary script file.
+Author: Paul Lashomb
+
 """
+
+"""
+
+Code calculates the correlation function for a simple harmonic oscillator from Quantum Mechanics
+and computes the difference in energy levels from the ground state and first excited state
+from the correlation functions
+
+"""
+
 
 from scipy import integrate 
 from scipy.integrate import nquad
